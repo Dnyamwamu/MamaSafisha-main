@@ -6,22 +6,22 @@
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 1.2254,
-          "lng": 36.8976
+          "lng": 36.822336,
+          "lat": -1.285458
         },
         "viewport": {
           "northeast": {
-            "lat": 1.2254,
-            "lng": 36.8976
+            "lng": 36.822336,
+            "lat": -1.285458
           },
           "southwest": {
-            "lat": 1.2254,
-            "lng": 36.8976
+            "lng": 36.822336,
+            "lat": -1.285458
           }
         }
       },
-      "icon": "https://cdn-icons.flaticon.com/png/512/3322/premium/3322056.png?token=exp=1643718712~hmac=d25ec9fe61a2ca6beedc9c234eb9bf1b",
-      "name": "Kasarani Dry Cleaners",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1606/1606731.png",
+      "name": "Starehe Cleaners",
       "opening_hours": {
         "open_now": true
       },
@@ -42,38 +42,31 @@
       "rating": 4.4,
       "reference": "",
       "scope": "",
-      "types": [
-        "cafe",
-        "bar",
-        "cleaningService",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": ["cleaningService"],
       "user_ratings_total": 1675,
-      "vicinity": "Kasarani Seasons, nairobi"
+      "vicinity": "Starehe Village, nairobi"
     },
 
     {
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": -4.04374,
-          "lng": 39.658871
+          "lng": 36.822336,
+          "lat": -1.285458
         },
         "viewport": {
           "northeast": {
-            "lat": -4.14374,
-            "lng": 39.258871
+            "lng": 36.822336,
+            "lat": -1.285458
           },
           "southwest": {
-            "lat": -4.15374,
-            "lng": 39.358871
+            "lng": 36.822336,
+            "lat": -1.285458
           }
         }
       },
       "icon": "https://cdn-icons-png.flaticon.com/512/445/445500.png",
-      "name": "Mwiki Laundry",
+      "name": "Premium Solutions Services",
       "opening_hours": {
         "open_now": true
       },
@@ -91,19 +84,144 @@
         "global_code": ""
       },
       "price_level": 3,
-      "rating": 4.4,
+      "rating": 3.4,
       "reference": "",
       "scope": "",
-      "types": [
-        "cafe",
-        "bar",
-        "cleaningService",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
+      "types": [],
       "user_ratings_total": 1675,
-      "vicinity": "Kasarani Mwiki Rd, nairobi"
+      "vicinity": "Mathare Huruma, nairobi"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lng": 36.822336,
+          "lat": -1.285458
+        },
+        "viewport": {
+          "northeast": {
+            "lng": 36.822336,
+            "lat": -1.285458
+          },
+          "southwest": {
+            "lng": 36.822336,
+            "lat": -1.285458
+          }
+        }
+      },
+      "icon": "https://cdn-icons.flaticon.com/png/512/2592/premium/2592037.png?token=exp=1643801414~hmac=3bc4e069587fee5dc2ecfe6971f88e4f",
+      "name": "Gate B Cleaning Services Ltd",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 0,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 0
+        }
+      ],
+      "place_id": "some place id 1",
+      "plus_code": {
+        "compound_code": "",
+        "global_code": ""
+      },
+      "price_level": 3,
+      "rating": 2.4,
+      "reference": "",
+      "scope": "",
+      "types": [],
+      "user_ratings_total": 1675,
+      "vicinity": "Starehe Junction, nairobi"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lng": 36.822336,
+          "lat": -1.285458
+        },
+        "viewport": {
+          "northeast": {
+            "lng": 36.822336,
+            "lat": -1.285458
+          },
+          "southwest": {
+            "lng": 36.822336,
+            "lat": -1.285458
+          }
+        }
+      },
+      "icon": "https://cdn-icons.flaticon.com/png/512/2946/premium/2946623.png?token=exp=1643801174~hmac=95de26fc397cb212758d743a3e520b36",
+      "name": "PolicePost Solutions Ltd",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 0,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 0
+        }
+      ],
+      "place_id": "some place id 1",
+      "plus_code": {
+        "compound_code": "",
+        "global_code": ""
+      },
+      "price_level": 3,
+      "rating": 1.4,
+      "reference": "",
+      "scope": "",
+      "types": [],
+      "user_ratings_total": 1675,
+      "vicinity": "Starehe Market, nairobi"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lng": 36.822336,
+          "lat": -1.285458
+        },
+        "viewport": {
+          "northeast": {
+            "lng": 36.822336,
+            "lat": -1.285458
+          },
+          "southwest": {
+            "lng": 36.822336,
+            "lat": -1.285458
+          }
+        }
+      },
+      "icon": "https://cdn-icons-png.flaticon.com/512/2052/2052357.png",
+      "name": "Msikiti Cleaning Services Ltd",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 0,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 0
+        }
+      ],
+      "place_id": "some place id 1",
+      "plus_code": {
+        "compound_code": "",
+        "global_code": ""
+      },
+      "price_level": 3,
+      "rating": 3.4,
+      "reference": "",
+      "scope": "",
+      "types": [],
+      "user_ratings_total": 675,
+      "vicinity": "Starehe Mosque, nairobi"
     }
   ],
   "status": "OK"

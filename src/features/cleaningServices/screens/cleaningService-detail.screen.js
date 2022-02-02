@@ -58,7 +58,7 @@ export const CleaningServiceDetailScreen = ({ route }) => {
           expanded={contactExpanded}
           onPress={() => setContactExpanded(!contactExpanded)}
         >
-          <List.Item title='+254 729 686 414' />
+          <List.Item title='+254 713 833520' />
           <List.Item title='info@mamasafisha.co.ke' />
           <List.Item title='www.mamasafisha.co.ke' />
           <List.Item title='Facebook - Mamasafisha Cleaning Services' />
