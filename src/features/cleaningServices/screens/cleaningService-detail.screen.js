@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import { ScrollView } from 'react-native'
-import { List } from 'react-native-paper'
+import { List, Divider } from 'react-native-paper'
 
+import { Spacer } from '../../../components/spacer/spacer.component'
 import { CleaningServiceInfoCard } from '../components/cleaningService-info-card.component'
 
 import { SafeArea } from '../../../components/utility/safe-area.component'
+import { OrderButton } from '../components/cleaningService-list.styles'
 
 export const CleaningServiceDetailScreen = ({ route }) => {
   const [indoorExpanded, setIndoorExpanded] = useState(false)
@@ -28,7 +30,7 @@ export const CleaningServiceDetailScreen = ({ route }) => {
           <List.Item title='Cabinets                       (Ksh. 500/=)' />
           <List.Item title='Fridge/Oven                 (Ksh. 500/=)' />
         </List.Accordion>
-
+        <Divider />
         <List.Accordion
           title='Outdoor Services'
           left={(props) => <List.Icon {...props} icon='spray-bottle' />}
@@ -40,7 +42,7 @@ export const CleaningServiceDetailScreen = ({ route }) => {
           <List.Item title='Wall / Windows            (Ksh. 500/=)' />
           <List.Item title='General Cleaning          (Ksh. 1500/=)' />
         </List.Accordion>
-
+        <Divider />
         <List.Accordion
           title='HeavyLifting Services'
           left={(props) => <List.Icon {...props} icon='forklift' />}
@@ -51,7 +53,7 @@ export const CleaningServiceDetailScreen = ({ route }) => {
           <List.Item title='sorting and Arranging         (Ksh. 1500/=)' />
           <List.Item title='Relocation                             (Ksh. 3500/=)' />
         </List.Accordion>
-
+        <Divider />
         <List.Accordion
           title='Contact Us'
           left={(props) => <List.Icon {...props} icon='card-account-phone' />}
@@ -65,6 +67,18 @@ export const CleaningServiceDetailScreen = ({ route }) => {
           <List.Item title='HQ Offices - Kasarani' />
         </List.Accordion>
       </ScrollView>
+      <Spacer position='bottom' size='large'>
+        <OrderButton
+          icon='phone'
+          mode='contained'
+          // onPress={() => {
+          //   addToCart({ item: "special", price: 1299 }, restaurant);
+          //   navigation.navigate("Checkout");
+          // }}
+        >
+          ENQUIRE (+254 713 833520)
+        </OrderButton>
+      </Spacer>
     </SafeArea>
   )
 }
